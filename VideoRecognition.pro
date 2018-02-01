@@ -25,13 +25,16 @@ SOURCES += main.cpp\
     basicfunction.cpp \
     sharedmatting_config.cpp \
     expandknownregion.cpp \
-    basicimageprocessing.cpp
+    basicimageprocessing.cpp \
+    searchclosedknownregionsample.cpp
 
 HEADERS  += mainwindow.h \
     sharedmatting.h \
     basicfunction.h \
     sharedmatting_config.h \
     expandknownregion.h \
-    basicimageprocessing.h
+    basicimageprocessing.h \
+    searchclosedknownregionsample.h \
+    sampleandgather_config.h
 
 FORMS    += mainwindow.ui

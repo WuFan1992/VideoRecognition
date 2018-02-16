@@ -38,8 +38,8 @@ private:
     int calculBeginAngleForEachPixel(cv::Point pixel);
     bool ifPixelOutOfImage(int x,int y);
     void parserUnknownPointInVector();
-    void parserToFindKnownPointAllDirection(CandidateForeAndBackGroundForOnePixel& candidate_fb,int initial_angle);
-    bool parserToFindKnownPointOneDirection(cv::Point current_pixel,DeltaXYandStep delta_xy_step);
+    void parserToFindKnownPointAllDirection(int initial_angle);
+    void parserToFindKnownPointOneDirection(CandidateForeAndBackGroundForOnePixel& candidate_fb,DeltaXYandStep delta_xy_step);
 
 
 

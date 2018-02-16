@@ -1,5 +1,6 @@
 #include "expandknownregion.h"
 #include "sharedmatting_config.h"
+#include "basicfunction.h"
 
 #include <opencv2/imgproc/imgproc.hpp>
 
